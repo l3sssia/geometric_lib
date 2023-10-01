@@ -21,6 +21,6 @@ def perimeter(a, b):
             b (int/float): длина второй стороны прямоугольника
 
         Возвращаемое значение:
-            perimeter (int/float): площадь прямоугольника с сторонами a и b
+            perimeter (int/float): периметр прямоугольника с сторонами a и b
     '''
     return (a + b) * 2
