@@ -1,4 +1,4 @@
-def checkValues(a, b):
+def checkValues(a):
     if (a < 0):
         raise ValueError("Given negative value for square side: ", a)
 
