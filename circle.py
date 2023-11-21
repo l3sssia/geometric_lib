@@ -1,5 +1,8 @@
 import math
 
+def checkValue(r):
+    if (r < 0):
+        raise ValueError("Given negative value for radius: ", r)
 
 def area(r):
     '''
@@ -11,6 +14,7 @@ def area(r):
         Возвращаемое значение:
             area (float): площадь круга с радиусом r
     '''
+    checkValue(r)
     return math.pi * r * r
 
 
@@ -24,4 +28,5 @@ def perimeter(r):
         Возвращаемое значение:
             perimeter (float): периметр круга с радиусом r
     '''
+    checkValue(r)
     return 2 * math.pi * r
