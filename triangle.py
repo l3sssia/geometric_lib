@@ -1,16 +1,10 @@
-def checkValues(a, b, c):
+def checkValues(a, b, c = 0):
     if (a < 0):
-        raise ValueError("Given negative value for triangle side a: ", a)
+        raise ValueError("Given negative value for triangle side: ", a)
     if (b < 0):
-        raise ValueError("Given negative value for triangle side b: ", b)
+        raise ValueError("Given negative value for triangle side: ", b)
     if (c < 0):
-        raise ValueError("Given negative value for triangle side b: ", c)
-
-def checkValues(a, h):
-    if (a < 0):
-        raise ValueError("Given negative value for triangle side a: ", a)
-    if (h < 0):
-        raise ValueError("Given negative value for triangle height: ", h)
+        raise ValueError("Given negative value for triangle side: ", c)
 
 def area(a, h):
     '''
