@@ -1,7 +1,6 @@
 import unittest
-from tests import RectangleTestCase, SquareTestCase, CircleTestCase, TriangleTestCase
+from tests import *
 import tests
-
 """
 Run all tests in module "tests"
 """
