@@ -1,3 +1,11 @@
+def checkValues(a, b, c = 0):
+    if (a < 0):
+        raise ValueError("Given negative value for triangle side: ", a)
+    if (b < 0):
+        raise ValueError("Given negative value for triangle side: ", b)
+    if (c < 0):
+        raise ValueError("Given negative value for triangle side: ", c)
+
 def area(a, h):
     '''
     Возвращает площадь треугольника в зависимости от длины его стороны и высоты, опущенной к ней
@@ -9,6 +17,7 @@ def area(a, h):
         Возвращаемое значение:
             area (int/float): площадь треугольника со стороной a и высотой h
     '''
+    checkValues(a, h)
     return a * h / 2
 
 
@@ -24,4 +33,5 @@ def perimeter(a, b, c):
         Возвращаемое значение:
             perimeter (int/float): периметр треугольника с сторонами a, b, c
     '''
+    checkValues(a, b, c)
     return a + b + c

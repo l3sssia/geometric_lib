@@ -1,3 +1,9 @@
+def checkValues(a, b):
+    if (a < 0):
+        raise ValueError("Given negative value for rectangle side a: ", a)
+    if (b < 0):
+        raise ValueError("Given negative value for rectangle side b: ", b)
+
 def area(a, b):
     '''
     Возвращает площадь прямоугольника в зависимости от длин его сторон
@@ -9,6 +15,7 @@ def area(a, b):
         Возвращаемое значение:
             area (int/float): площадь прямоугольника с сторонами a и b
     '''
+    checkValues(a, b)
     return a * b
 
 
@@ -23,4 +30,5 @@ def perimeter(a, b):
         Возвращаемое значение:
             perimeter (int/float): периметр прямоугольника с сторонами a и b
     '''
+    checkValues(a, b)
     return (a + b) * 2
