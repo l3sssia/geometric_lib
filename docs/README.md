@@ -83,9 +83,13 @@
     `p = perimeter(10.1, 5, 6) # s = 21.1`
 
 ## История коммитов
-
+- [7e2f08](https://github.com/l3sssia/geometric_lib/commit/7e2f08e106e45aa8a646543c84ac7480f34dc46e) Тесты добавлены в ветку main
 - [33618b](https://github.com/l3sssia/geometric_lib/commit/33618be305b24dede28e1c7303921c03d6dbd03c) Lab-2 слита с main
 - [ffd110](https://github.com/l3sssia/geometric_lib/commit/ffd110b6d5683327e9095fa8e5820bea13e67bca) Добавлен readme
+
+### Ветка tests -- добавлены тесты
+- [8048f4c](https://github.com/l3sssia/geometric_lib/commit/8048f4c) Исправлены тесты
+- [742d1c6](https://github.com/l3sssia/geometric_lib/commit/742d1c6e3607dc5171162930001467c7640e486e) Добавлены тесты
 
 ### Ветка lab-2 -- добавлены docstrings для файлов
 - [67e6f9](https://github.com/l3sssia/geometric_lib/commit/67e6f9) add description in triangle.py
