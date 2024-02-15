@@ -83,9 +83,13 @@
     `p = perimeter(10.1, 5, 6) # s = 21.1`
 
 ## История коммитов
+- [e6cd3f](https://github.com/l3sssia/geometric_lib/commit/e6cd3f9a04612902c9b1826ac36c4d712fb47fcd) Автотесты Github Actions
 - [7e2f08](https://github.com/l3sssia/geometric_lib/commit/7e2f08e106e45aa8a646543c84ac7480f34dc46e) Тесты добавлены в ветку main
 - [33618b](https://github.com/l3sssia/geometric_lib/commit/33618be305b24dede28e1c7303921c03d6dbd03c) Lab-2 слита с main
 - [ffd110](https://github.com/l3sssia/geometric_lib/commit/ffd110b6d5683327e9095fa8e5820bea13e67bca) Добавлен readme
+
+### Patch 1
+- [04c09c](https://github.com/l3sssia/geometric_lib/commit/04c09c8e8a0d2c8d2d349047f2eded7c38369e48) Автотесты Github Actions
 
 ### Ветка tests -- добавлены тесты
 - [8048f4c](https://github.com/l3sssia/geometric_lib/commit/8048f4c) Исправлены тесты
