@@ -5,6 +5,11 @@ def checkValues(a, b, c = 0):
         raise ValueError("Given negative value for triangle side: ", b)
     if (c < 0):
         raise ValueError("Given negative value for triangle side: ", c)
+    
+def checkTriangle(a, b, c):
+    if (a < b + c) and (b < a + c) and (c < a + b):
+        return
+    raise ValueError("Given wrong triangle sides ", a, b, c)
 
 def area(a, h):
     '''
@@ -34,4 +39,5 @@ def perimeter(a, b, c):
             perimeter (int/float): периметр треугольника с сторонами a, b, c
     '''
     checkValues(a, b, c)
+    checkTriangle(a, b, c)
     return a + b + c
