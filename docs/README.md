@@ -83,6 +83,7 @@
     `p = perimeter(10.1, 5, 6) # s = 21.1`
 
 ## История коммитов
+- [08d7d3](https://github.com/l3sssia/geometric_lib/commit/08d7d301aefcc34ec90f750a17bd41a3d83ae272) Добавлены новые тесты для круга
 - [e6cd3f](https://github.com/l3sssia/geometric_lib/commit/e6cd3f9a04612902c9b1826ac36c4d712fb47fcd) Автотесты Github Actions
 - [7e2f08](https://github.com/l3sssia/geometric_lib/commit/7e2f08e106e45aa8a646543c84ac7480f34dc46e) Тесты добавлены в ветку main
 - [33618b](https://github.com/l3sssia/geometric_lib/commit/33618be305b24dede28e1c7303921c03d6dbd03c) Lab-2 слита с main
