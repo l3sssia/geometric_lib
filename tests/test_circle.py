@@ -13,6 +13,12 @@ class CircleTestCase(unittest.TestCase):
          circle.area(-2)
       with self.assertRaises(ValueError):
          circle.area(-3)
-
+   
+   def test_precision(self):
+      res = circle.area(10)
+      delta_ = 0.00001
+      self.assertAlmostEqual(314.159265358, res, None,  delta= delta_)
+      res = circle.perimeter(10)
+      self.assertAlmostEqual(62.8318530716, res, None, delta = delta_)
 if __name__ == '__main__':
     unittest.main()
